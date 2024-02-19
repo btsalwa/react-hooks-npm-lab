@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "echo 'Hello World!'",
+    "start": "serve"
   },
   "browserslist": {
     "production": [
@@ -30,6 +31,9 @@
   "homepage": "https://github.com/learn-co-curriculum/react-hooks-npm-lab#readme",
   "keywords": [],
   "dependencies": {
-    "date-fn": "^0.0.2"
-  }
+    "date-fn": "^0.0.2",
+    "date-fns": "^3.3.1",
+    "serve": "^14.2.1"
+  },
+  "description": "## Learning Goals"
 }
